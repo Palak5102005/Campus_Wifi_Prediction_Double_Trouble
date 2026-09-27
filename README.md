@@ -405,20 +405,16 @@ campus-wifi-predictor/
 │   ├── wifi_measurements.csv
 │   └── survey_location_profile.csv
 │
-├── notebooks/
-│   ├── 01_data_collection_analysis.ipynb
-│   ├── 02_survey_analysis.ipynb
-│   ├── 03_ml_prediction.ipynb
-│   └── 04_chatbot.ipynb
+│── 01_data_collection_analysis.ipynb
+│── 02_survey_analysis.ipynb
+│── 03_ml_prediction.ipynb
+│── 04_chatbot.ipynb
 │
 ├── screenshots/
 │   ├── chatbot.png
 │   ├── survey_analysis.png
 │   ├── location_profile.png
 │   └── prediction.png
-│
-└── presentation/
-    └── presentation.pdf
 ```
 
 ---
