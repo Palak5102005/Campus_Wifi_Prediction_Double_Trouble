@@ -1,0 +1,73 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =========================
+# Jupyter / Kaggle
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+env/
+.venv/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Generated / temporary files
+# =========================
+*.log
+*.tmp
+*.temp
+temp/
+tmp/
+
+# =========================
+# Model artifacts
+# =========================
+*.pkl
+*.pickle
+*.joblib
+
+# =========================
+# Gradio
+# =========================
+.gradio/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Python testing / coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Large local datasets
+# =========================
+*.zip
+*.parquet
