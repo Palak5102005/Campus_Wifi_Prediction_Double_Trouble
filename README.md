@@ -473,7 +473,7 @@ Run the notebook cells sequentially to launch the interactive Wi-Fi assistant.
 
 ###  Live Demo
 
-**https://3cbb47174c25d82818.gradio.live/**
+**https://d34e6e34cf98489540.gradio.live**
 
 #  17. Limitations
 
