@@ -394,29 +394,8 @@ The survey acts as the **user research layer**, while the Wi-Fi measurements for
 
 ---
 
-#  12. Screenshots
 
-### Interactive Chatbot
-
-![Wi-Fi Chatbot](screenshots/chatbot.png)
-
-### Survey Analysis
-
-![Survey Analysis](screenshots/survey_analysis.png)
-
-### Location-Level Network Profile
-
-![Location Profile](screenshots/location_profile.png)
-
-### Prediction Output
-
-![Prediction Output](screenshots/prediction.png)
-
-> Add the corresponding screenshots to the `screenshots/` folder, or update the paths above.
-
----
-
-#  13. Repository Structure
+#  12. Repository Structure
 
 ```text
 campus-wifi-predictor/
@@ -447,7 +426,7 @@ campus-wifi-predictor/
 
 ---
 
-#  14. Tech Stack
+#  13. Tech Stack
 
 ### Data Processing
 - Python
@@ -497,19 +476,13 @@ Run the notebook cells sequentially to launch the interactive Wi-Fi assistant.
 
 ---
 
-# 🌐 16. Demo
+#  16. Demo
 
-### 🔗 Live Demo
+###  Live Demo
 
-**https://13262ca63d96921c87.gradio.live/**
+**https://3cbb47174c25d82818.gradio.live/**
 
-### 📊 Presentation
-
-****
-
----
-
-# ⚠️ 17. Limitations
+#  17. Limitations
 
 ### Limited temporal coverage
 The measurements were collected during the project period rather than continuously across many days and weeks.
