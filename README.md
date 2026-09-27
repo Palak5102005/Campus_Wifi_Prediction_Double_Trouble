@@ -7,9 +7,6 @@ An ML-powered campus Wi-Fi intelligence system combining real-world Wi-Fi measur
 ---
 
 ##  Project Demo
-
-![Wi-Fi Chatbot](screenshots/chatbot.png)
-
 Example query:
 
 > **"What will the Wi-Fi be like at LIBRARY at 9 PM with crowd 3?"**
