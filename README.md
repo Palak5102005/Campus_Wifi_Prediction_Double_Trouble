@@ -1,4 +1,4 @@
-# 📶 Campus Wi-Fi Predictive Assistant
+#  Campus Wi-Fi Predictive Assistant
 
 > **Predict campus Wi-Fi reliability before you reach the location.**
 
@@ -6,7 +6,7 @@ An ML-powered campus Wi-Fi intelligence system combining real-world Wi-Fi measur
 
 ---
 
-## 🎥 Project Demo
+##  Project Demo
 
 ![Wi-Fi Chatbot](screenshots/chatbot.png)
 
@@ -27,7 +27,7 @@ Probability → 82.5%
 
 ---
 
-# 🧩 1. The Problem
+#  1. The Problem
 
 Campus Wi-Fi problems are usually **reactive**.
 
@@ -47,7 +47,7 @@ Instead of only monitoring the network after a problem occurs, we wanted to buil
 
 ---
 
-# 👥 2. Understanding the User
+#  2. Understanding the User
 
 We first conducted a campus survey to understand whether this was a significant student problem.
 
@@ -83,7 +83,7 @@ This led to the next question:
 
 ---
 
-# 📡 3. Collecting Real-World Wi-Fi Data
+#  3. Collecting Real-World Wi-Fi Data
 
 We collected **429 Wi-Fi measurements** across campus.
 
@@ -105,7 +105,7 @@ Each observation captured network and contextual information such as:
 
 ---
 
-# 🔍 4. From Raw Measurements to Network Profiles
+#  4. From Raw Measurements to Network Profiles
 
 We aggregated measurements to build **location-level network profiles**.
 
@@ -130,7 +130,7 @@ These profiles became the bridge between the **raw network data** and the **pred
 
 ---
 
-# 🧠 5. Defining Poor Connectivity
+#  5. Defining Poor Connectivity
 
 We converted raw network measurements into a binary target:
 
@@ -164,7 +164,7 @@ Therefore, approximately **84.6% of collected measurements** were classified as 
 
 ---
 
-# 🤖 6. Machine Learning Layer
+#  6. Machine Learning Layer
 
 We built a classification pipeline using a **Random Forest model**.
 
@@ -232,7 +232,7 @@ the system attempts to answer:
 
 ---
 
-# 📈 7. Context-Aware Prediction
+#  7. Context-Aware Prediction
 
 Crowd density is included as a contextual input.
 
@@ -250,7 +250,7 @@ This demonstrates how the prediction can respond to different contextual conditi
 
 ---
 
-# 🧪 8. From ML Model to Usable Product
+#  8. From ML Model to Usable Product
 
 We moved beyond a notebook-based ML model and built an **interactive chatbot using Gradio**.
 
@@ -280,7 +280,7 @@ User-Friendly Response
 
 ---
 
-# 🏗️ 9. System Architecture
+#  9. System Architecture
 
 ```text
                  ┌─────────────────────┐
@@ -330,7 +330,7 @@ User-Friendly Response
 
 ---
 
-# 📊 10. Results
+#  10. Results
 
 | Metric | Value |
 |---|---:|
@@ -366,7 +366,7 @@ These are class distributions, **not model accuracy**.
 
 ---
 
-# 🔗 11. Connecting Survey + Network Data
+#  11. Connecting Survey + Network Data
 
 The two datasets serve different purposes.
 
@@ -394,7 +394,7 @@ The survey acts as the **user research layer**, while the Wi-Fi measurements for
 
 ---
 
-# 🖥️ 12. Screenshots
+#  12. Screenshots
 
 ### Interactive Chatbot
 
@@ -416,7 +416,7 @@ The survey acts as the **user research layer**, while the Wi-Fi measurements for
 
 ---
 
-# 📁 13. Repository Structure
+#  13. Repository Structure
 
 ```text
 campus-wifi-predictor/
@@ -447,7 +447,7 @@ campus-wifi-predictor/
 
 ---
 
-# ⚙️ 14. Tech Stack
+#  14. Tech Stack
 
 ### Data Processing
 - Python
@@ -470,7 +470,7 @@ campus-wifi-predictor/
 
 ---
 
-# 🚀 15. Running the Project
+#  15. Running the Project
 
 ### Clone the repository
 
@@ -501,17 +501,15 @@ Run the notebook cells sequentially to launch the interactive Wi-Fi assistant.
 
 ### 🔗 Live Demo
 
-**[Add deployed chatbot link here]**
+**https://13262ca63d96921c87.gradio.live/**
 
 ### 📊 Presentation
 
-**[Add presentation link here]**
+****
 
 ---
 
 # ⚠️ 17. Limitations
-
-This is a **hackathon prototype**.
 
 ### Limited temporal coverage
 The measurements were collected during the project period rather than continuously across many days and weeks.
@@ -530,7 +528,7 @@ More extensive real-world validation across different days, locations and time p
 
 ---
 
-# 🔮 18. Future Scope
+#  18. Future Scope
 
 ## Continuous Live Data Collection
 
@@ -580,7 +578,7 @@ New measurements can continuously update location profiles and periodically retr
 
 ---
 
-# 🎯 19. From Prediction to Decision Support
+#  19. From Prediction to Decision Support
 
 The current system answers:
 
@@ -604,7 +602,7 @@ Recommendation
 
 ---
 
-# 🏆 20. Project Journey
+#  20. Project Journey
 
 ```text
 Problem Discovery
@@ -646,20 +644,11 @@ The goal was to move from:
 
 ---
 
-# 💡 Core Idea
+#  Core Idea
 
 ## **Don't wait for bad Wi-Fi to happen. Predict it before it happens.**
 
 ---
 
-## 👥 Team
-
-**[Add Team Members Here]**
-
-Built during **[Hackathon Name]**
-
----
-
-## 📜 License
 
 Add an appropriate open-source license if you intend to make the repository publicly reusable.
